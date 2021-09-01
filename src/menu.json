@@ -1,0 +1,117 @@
+[
+  {
+    "id": "sub-147354",
+    "href": "/about/Rosneft_today",
+    "text": "About rosneft",
+    "children": [
+      {
+        "id": "sub-6009",
+        "href": "/about/Rosneft_today",
+        "text": "Rosneft at a glance"},
+      {
+        "id": "sub-6022",
+        "href": "/about/History",
+        "text": "History"
+      },
+      {
+        "id": "sub-6034",
+        "href": "/about/Development_prospects_and_strategy",
+        "text": "Development Prospects and Strategy"
+      },
+      {
+        "id": "sub-197385",
+        "href": "/about/Rosneft_Key_Tax_Principles",
+        "text": "Rosneft Key Tax Principles"
+      },
+      {
+        "id": "sub-6039",
+        "href": "/about/careers",
+        "text": "Careers"
+      },
+      {
+        "id": "sub-6040",
+        "href": "/about/contacts",
+        "text": "Contacts"
+      }
+    ]
+  },
+  {
+    "id": "sub-5792",
+    "href": "/governance",
+    "text": "Corporate governance",
+    "children": [
+      {
+        "id": "sub-5793",
+        "href": "/governance/board",
+        "text": "Board of Directors"
+      },
+      {
+        "id": "sub-5795",
+        "href": "/governance/management",
+        "text": "Management Board"
+      },
+      {
+        "id": "sub-192075",
+        "href": "/governance/Risk_Management_and_Internal_Control",
+        "text": "Risk Management and Internal Control"
+      },
+      {
+        "id": "sub-5797",
+        "href": "/governance/Internal_control_and_audit",
+        "text": "Internal Audit  and Audit Commission"
+      },
+      {
+        "id": "sub-182705",
+        "href": "/Investors/Documents/",
+        "text": "Corporate documents"
+      }
+    ]
+  },
+  {
+    "id": "sub-5798",
+    "href": "/business",
+    "text": "Business",
+    "children": [
+      {
+        "id": "sub-97567",
+        "href": "/business/Upstream/overview",
+        "text": "General Information"
+      },
+      {
+        "id": "sub-93466",
+        "href": "/business/Upstream/Licensing",
+        "text": "Licensing"
+      },
+      {
+        "id": "sub-5811",
+        "href": "/business/Upstream/exploration",
+        "text": "Onshore exploration and appraisal"
+      },
+      {
+        "id": "sub-5799",
+        "href": "/business/Upstream/Zapasi_i_resursi",
+        "text": "Reserves and resources"
+      },
+      {
+        "id": "sub-5812",
+        "href": "/business/Upstream/Dobicha",
+        "text": "Production and Development"
+      },
+      {
+        "id": "sub-93467",
+        "href": "/business/Upstream/Gas_Strategy",
+        "text": "Gas Business"
+      },
+      {
+        "id": "sub-185045",
+        "href": "/business/Upstream/Offshoreprojects",
+        "text": "Offshore projects"
+      },
+      {
+        "id": "sub-93468",
+        "href": "/business/Upstream/Offshore_equipment",
+        "text": "Offshore equipment"
+      }
+    ]
+  }
+]
