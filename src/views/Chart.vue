@@ -1,19 +1,11 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <h4 class="text-white ml-3">
-          chart
-        </h4>
-      </div>
-
-    </div>
     <div class="row mt-3">
       <div class="col">
         <apexchart
           :options="opts"
           :series="series"
-          height="400"
+          height="300"
           type="line"
           width="100%"
         />

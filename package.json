@@ -10,7 +10,7 @@
   "dependencies": {
     "apexcharts": "^3.28.1",
     "axios": "^0.21.1",
-    "bootstrap": "^5.0.0-beta3",
+    "bootstrap": "^5.1.0",
     "core-js": "^3.6.5",
     "date-fns": "^2.23.0",
     "vue": "^2.6.11",

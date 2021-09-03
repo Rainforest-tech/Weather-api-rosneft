@@ -4,14 +4,23 @@
       <app-navbar/>
     <router-view/>
     </div>
+    {{name}}
+    <greeting-modal ref="modal"/>
   </div>
 </template>
 
 <script>
 import AppNavbar from './components/AppNavbar.vue';
+import GreetingModal from './components/GreetingModal.vue';
 
 export default {
-  components: { AppNavbar },
+  components: { GreetingModal, AppNavbar },
+
+  mounted() {
+    if (!localStorage.name) {
+      this.$refs.modal.open();
+    }
+  },
 };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light text-black-50 nav-color
-    mb-3 nav ">
+    mb-3 nav  shadow rounded-bottom">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -38,6 +38,7 @@
           </li>
         </ul>
       </div>
+    <div v-if="name"> Hello, {{name}}/{{role}} </div>
     </div>
   </nav>
 </template>
@@ -48,6 +49,14 @@ import menu from '../menu.json';
 
 export default {
   name: 'AppNavbar',
+  computed: {
+    name() {
+      return localStorage.name;
+    },
+    role() {
+      return localStorage.role;
+    },
+  },
   data() {
     return {
       menu,
