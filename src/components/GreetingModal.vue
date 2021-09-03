@@ -57,7 +57,7 @@ export default {
       localStorage.name = this.name;
       localStorage.role = this.role;
       this.showModal = false;
-      document.location.reload();
+      // document.location.reload();
     },
   },
 };

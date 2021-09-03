@@ -27,7 +27,7 @@ export default new Vuex.Store({
           dispatch('getWeatherByCoords');
         },
         () => {
-          this.$http.get('https://freegeoip.app/json/')
+          Vue.$http.get('https://freegeoip.app/json/')
             .then(({ data }) => {
               commit('SET_COORDS', data);
               dispatch('getWeatherByCoords');
