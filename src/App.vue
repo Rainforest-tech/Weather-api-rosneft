@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <div class="container bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light text-black-50 nav-color
+    mb-3 nav ">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -36,6 +38,7 @@
       </div>
     </nav>
     <router-view/>
+    </div>
   </div>
 </template>
 
@@ -80,5 +83,10 @@ export default {
       color: #42b983;
     }
   }
+}
+
+.nav-color {
+  background-color: #fecf00;
+  color: #000;
 }
 </style>

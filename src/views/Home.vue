@@ -2,14 +2,14 @@
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
       <div :key="day.dt" v-for="day in weatherData.daily" class="col">
-        <div class="card mb-3">
-          <div class="card-body">
+        <div class="card  card-body-color mb-3">
+          <div class="card-body ">
             <h5 class="card-title">
-              {{ $date(new Date(day.dt * 1000), '...:::EEEE => dd MMMM yyyy:::...', { locale }) }}
+              {{ $date(new Date(day.dt * 1000), 'EEEE dd MMMM yyyy', { locale }) }}
             </h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the
-              bulk of the card's content.</p>
+            <h6 class="card-subtitle mb-2 text-muted text-black-50">Weather forecast</h6>
+            <p class="card-text">Day {{Math.round(day.feels_like.day)}} °C</p>
+            <p class="card-text">Night {{Math.round(day.feels_like.night)}} °C</p>
             <router-link :to="{ name: 'Day', params: { dt: day.dt, day: day }}">
               Details
             </router-link>
@@ -34,7 +34,7 @@ export default {
       lat: null,
       long: null,
       api_url: 'https://api.openweathermap.org/data/2.5/onecall',
-      api_key: 'cab6000d6f3161c8b88da92f1212b0a0',
+      api_key: process.env.VUE_APP_WEATHER_FORECAST_TOKEN,
     };
   },
   created() {
@@ -67,3 +67,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+  .card-body-color {
+    background-color: #bfdbf7;
+  }
+</style>
