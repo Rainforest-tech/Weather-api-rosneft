@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-      <div :key="day.dt" v-for="day in weatherData" class="col">
+      <div :key="day.dt" v-for="day in weatherData" class="col d-flex align-items-stretch">
         <div class="card  card-body-color mb-3">
           <div class="card-body ">
             <h5 class="card-title">
