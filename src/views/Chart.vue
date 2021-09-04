@@ -1,17 +1,17 @@
 <template>
-  <div class="container">
-    <div class="row mt-3">
-      <div class="col">
-        <apexchart
-          :options="opts"
-          :series="series"
-          height="300"
-          type="line"
-          width="100%"
-        />
-      </div>
-    </div>
+<div class="container">
+<div class="row mt-3">
+  <div class="col">
+    <apexchart
+      :options="opts"
+      :series="series"
+      height="300"
+      type="line"
+      width="100%"
+    />
   </div>
+</div>
+</div>
 </template>
 
 <script>
