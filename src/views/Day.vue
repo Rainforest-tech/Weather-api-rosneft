@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center">
-      <div class="col">
-        <div class="card  card-body-color mb-3 flex-grow-1 ">
+    <div class="row">
+      <div class="col-6">
+        <div class="card  card-body-color mb-3 flex-grow-1">
           <div class="card-body ">
             <h5 class="card-title">
               {{ $date(new Date(day.dt * 1000), 'dd MMMM yyyy') }} <br>
