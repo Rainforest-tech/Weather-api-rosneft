@@ -54,8 +54,8 @@ export default {
       this.showModal = true;
     },
     save() {
-      localStorage.name = this.name;
-      localStorage.role = this.role;
+      localStorage.setItem('name', this.name);
+      localStorage.setItem('role', this.role);
       this.showModal = false;
       // document.location.reload();
     },

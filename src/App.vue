@@ -4,7 +4,6 @@
       <app-navbar/>
     <router-view/>
     </div>
-    {{name}}
     <greeting-modal ref="modal"/>
   </div>
 </template>
@@ -17,7 +16,7 @@ export default {
   components: { GreetingModal, AppNavbar },
 
   mounted() {
-    if (!localStorage.name) {
+    if (!localStorage.getItem('name')) {
       this.$refs.modal.open();
     }
   },

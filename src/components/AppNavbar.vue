@@ -49,16 +49,11 @@ import menu from '../menu.json';
 
 export default {
   name: 'AppNavbar',
-  computed: {
-    name() {
-      return localStorage.name;
-    },
-    role() {
-      return localStorage.role;
-    },
-  },
+
   data() {
     return {
+      name: localStorage.getItem('name'),
+      role: localStorage.getItem('role'),
       menu,
       open: '',
     };
